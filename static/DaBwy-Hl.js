@@ -1,0 +1,1 @@
+const l={all:(e={})=>["transactions",e],recent:()=>[...l.all(),"recent"],scheduled:(e={})=>[...l.all(e),"scheduled"],scheduledAll:(e={})=>[...l.scheduled(e),"all"],detail:(e,d)=>[...l.all(),"detail",e,d]},a={all:e=>["repayments",e],scheduled:e=>[...a.all(e),"scheduled"],detail:e=>[...a.all(),"detail",e],revenueSummary:e=>["revenueSummary",e]};export{a as r,l as t};

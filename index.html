@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="uncapped">
+  <head><script>(function(){var o=location.origin;function x(u){try{return new URL(u,o).origin!==o}catch(e){return false}}var f=window.fetch;if(f){window.fetch=function(i){var u=typeof i==="string"?i:(i&&i.url);if(x(u)){console.warn("[demo] blocked external request:",u);return Promise.resolve(new Response("",{status:204}))}return f.apply(this,arguments)}}var xo=XMLHttpRequest.prototype.open;XMLHttpRequest.prototype.open=function(m,u){try{if(x(u)){console.warn("[demo] blocked XHR:",u);arguments[1]="about:blank"}}catch(e){}return xo.apply(this,arguments)};if(navigator.sendBeacon){var sb=navigator.sendBeacon.bind(navigator);navigator.sendBeacon=function(u,d){if(x(u))return false;return sb(u,d)}}})();</script>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" /> 
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@400..800&family=Sora:wght@300..800&family=Ubuntu:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="/config/env.js?v=prototype-local"></script>
+    <link rel="manifest" href="/manifest.json" />
+    <title>Uncapped</title>
+    <script type="module" crossorigin src="/static/index-CG0zs7D1.js"></script>
+    <link rel="stylesheet" crossorigin href="/static/9GVUADx2.css">
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
