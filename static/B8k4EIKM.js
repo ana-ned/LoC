@@ -1,0 +1,1 @@
+import{j as e,I as r}from"./index-DPGLJI74.js";const a=({children:s,className:t})=>e.jsx("div",{className:r(t),children:s});a.Content=({children:s,className:t})=>e.jsx("div",{className:r(t),children:s});a.Footer=({children:s})=>e.jsx("div",{className:"mt-8 flex flex-col gap-y-4",children:s});export{a as F};
