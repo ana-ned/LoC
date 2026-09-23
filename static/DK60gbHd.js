@@ -1,0 +1,1 @@
+import{cj as i,cF as s}from"./index-CWWEAMep.js";function h(n,o,a){const t=i(n,a?.in);if(isNaN(o))return s(n,NaN);if(!o)return t;const r=t.getDate(),e=s(n,t.getTime());e.setMonth(t.getMonth()+o+1,0);const c=e.getDate();return r>=c?e:(t.setFullYear(e.getFullYear(),e.getMonth(),r),t)}export{h as a};
