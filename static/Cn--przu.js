@@ -1,0 +1,1 @@
+import{j as t,aY as e}from"./index-D-q2QS2i.js";const x=({children:_,className:r})=>t.jsx("div",{className:e("mt-2 rounded-xl bg-white p-4 shadow-[0_1px_4px_0_rgb(0_0_0_/_0.02),0_1px_4px_0_rgb(0_0_0_/_0.05)]",r),children:_});export{x as C};
