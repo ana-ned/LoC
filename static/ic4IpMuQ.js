@@ -1,0 +1,1 @@
+import{d as n,cV as a,h as i,G as o,en as s,l as e,m as u}from"./index-BqF2nJTn.js";const A=()=>{const t=n(),r=a();return i({mutationFn:async()=>{if(r.data?.partner==="AMAZON")return new s(e({token:await t.getToken(),service:u.OrganisationUsers})).reapplyAttribution({xXORGID:t.organisation?.organisationId})},onError:o})};export{A as u};
